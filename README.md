@@ -12,6 +12,11 @@ This repository demonstrates how to install and run [Python Power Electronics](h
 # Install Python
 uv python install 3.8
 
+
+# Sync dependencies
+uv sync
+
+
 # Run migrations
 uv run python manage.py makemigrations simulations
 uv run python manage.py migrate
