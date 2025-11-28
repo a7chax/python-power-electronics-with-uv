@@ -13,11 +13,11 @@ This repository demonstrates how to install and run [Python Power Electronics](h
 uv python install 3.8
 
 # Run migrations
-uv run python manage.py makemigrations simulations
-uv run python manage.py migrate
+uv run python simulator_interface/manage.py makemigrations simulations
+uv run python simulator_interface/manage.py migrate
 
 # Start server
-uv run python manage.py runserver
+uv run python simulator_interface/manage.py runserver
 ```
 
 ## Circuit Files Directory
