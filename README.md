@@ -1,5 +1,9 @@
 # Power Electronics Simulator
 
+This repository demonstrates how to install and run [Python Power Electronics](https://www.pythonpowerelectronics.com/downloads.html) using the `uv` project manager.
+
+**Version:** 4.4.0 (Released: February 19, 2023)
+
 ## Setup
 
 > **Note:** If you haven't installed `uv` yet, please follow the [installation guide](https://docs.astral.sh/uv/getting-started/installation/#__tabbed_1_1) first.
