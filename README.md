@@ -2,6 +2,8 @@
 
 ## Setup
 
+> **Note:** If you haven't installed `uv` yet, please follow the [installation guide](https://docs.astral.sh/uv/getting-started/installation/#__tabbed_1_1) first.
+
 ```bash
 # Install Python
 uv python install 3.8
