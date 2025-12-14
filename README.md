@@ -10,17 +10,27 @@ This repository demonstrates how to install and run [Python Power Electronics](h
 
 ```bash
 # Install Python
+
+#Step 1
+git clone https://github.com/a7chax/python-power-electronics-with-uv.git # Or via ssh
+
+
+#Step 2
+cd python-power-electronics-with-uv
+
+#Step 3
 uv python install 3.8
 
-
+# Step 4
 # Sync dependencies
 uv sync
 
-
+# Step 5
 # Run migrations
 uv run python simulator_interface/manage.py makemigrations simulations
 uv run python simulator_interface/manage.py migrate
 
+# Step 6
 # Start server
 uv run python simulator_interface/manage.py runserver
 ```
